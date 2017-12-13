@@ -8,8 +8,9 @@
  $(function() 
  {
     //create body
-    $("body").append('<p/>&nbsp;<p/>&nbsp;<p/>&nbsp;<p/>');
-    $("body").append('<div id=\"gauges\" width=\"100%\"></div>');
+    $("body").append('<div id=\"navbar\" width=\"100%\"></div>');
+    $("body").append('<div id=\"gauges\" width=\"100%\"></div>');   
+    $('#navbar').load('https://drive.google.com/uc?export=download&id=1lqzhFlFyAzJVwrhzAcMiA06e_xnalh7_');
     console.log( "ready!" );
 });
 
