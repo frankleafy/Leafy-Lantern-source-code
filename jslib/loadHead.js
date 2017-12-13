@@ -15,7 +15,7 @@
 
 window.onload = function () 
 {
-    //fill body
+    //fill body with js functions
 
     //sName,  sCall, timer, gWidth, gHeight, sLabel, iminorTicks, iyellowFrom, iyellowTo, iredFrom, iredTo
     drawGauge('#gauges','temp', "getTemp", 5000, 200, 200, 'Temp', 5, 800, 2000, 2000, 3000);
