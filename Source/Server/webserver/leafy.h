@@ -12,3 +12,6 @@ void getAndSetTime();
 void startTimer();
 void rotateplants();
 String getTimeString();
+
+#define ANALOGLIGHTPIN1 1 // number of outgoing bytes to buffer for Serial1
+
