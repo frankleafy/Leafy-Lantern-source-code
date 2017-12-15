@@ -2,7 +2,8 @@
  
 String loadHomePage()
 {
-  String page = "<html>\
+  String page = "<!doctype html>\
+<html lang=\"en\">\
     <head>\
       <title>Leafy Lantern</title>\
       <style>\
